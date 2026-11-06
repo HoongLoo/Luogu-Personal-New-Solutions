@@ -23,8 +23,7 @@ int main()
 			return 0;
 		}
         m-=10;
-        //36 255 10 5 240
-    }//  0 3 8      1 3 8    2  2 -9    3 2 -9
+    }
     if(m>=6){
     	if(t-jin<2){
     		max_length[t]=max_length[jin]+17;
@@ -92,5 +91,4 @@ int main()
 		}
 	}
 	cout<<"No"<<endl<<max_length[t]<<endl;
-	
 }	
